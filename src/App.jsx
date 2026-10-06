@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/JkWaterproofing">
       <Navbar />
       <main>
         <Routes><Route path="/" element={<Home />} /></Routes>
