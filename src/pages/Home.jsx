@@ -32,7 +32,7 @@ function Home() {
             <div className="hero-proof"><FiShield /> <span>50+ years of experience</span><i /> <FiCheck /> <span>Quality assured</span></div>
           </div>
           <div className="hero-visual reveal">
-            <div className="hero-photo"><img src="/images/gallery/media__1786467829298.png" alt="Terrace waterproofing application" /></div>
+            <div className="hero-photo"><img src={`${import.meta.env.BASE_URL}images/gallery/media__1786467829298.png`} alt="Terrace waterproofing application" /></div>
             <div className="hero-note"><b>01</b><span>Permanent solutions<br />for every structure</span></div>
             <div className="hero-stamp"><FiShield /><b>J K</b><small>TRUSTED<br />SINCE 1971</small></div>
           </div>
@@ -43,7 +43,7 @@ function Home() {
       <section className="section about" id="about">
         <div className="container about-grid">
           <div>
-            <div className="about-image"><img src="/images/gallery/media__1786467785908.png" alt="Jay Khodiyar project work" /><div className="about-badge"><FiClock /><strong>Since<br /><span>1971</span></strong></div></div>
+            <div className="about-image"><img src={`${import.meta.env.BASE_URL}images/gallery/media__1786467785908.png`} alt="Jay Khodiyar project work" /><div className="about-badge"><FiClock /><strong>Since<br /><span>1971</span></strong></div></div>
           </div>
           <div className="about-copy"><span className="eyebrow">Our story</span><h2 className="section-title">Experience that<br /><em>stands the test of time.</em></h2><p className="section-copy">We are Jay Khodiyar Waterproofing — a Mumbai-born team with a nationwide footprint. For over five decades, we have helped homes, industries and institutions stay dry, safe and built to perform.</p><p className="section-copy">Our approach is simple: understand the problem deeply, recommend the right system, and execute it with uncompromising attention to detail.</p><a className="button button-ghost" href="#contact">Get to know us <FiArrowUpRight /></a></div>
         </div>
