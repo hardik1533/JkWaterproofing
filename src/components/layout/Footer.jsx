@@ -1,0 +1,7 @@
+import { FiArrowUpRight, FiInstagram, FiLinkedin, FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
+
+function Footer() {
+  return <footer className="footer"><div className="container"><div className="footer-main"><div className="footer-brand"><a className="brand" href="#home"><span className="brand-mark">JK</span><span><b>JAY KHODIYAR</b><small>WATERPROOFING</small></span></a><p>Waterproofing, civil works and painting — protecting what matters since 1971.</p><div className="socials"><a href="#contact" aria-label="Instagram"><FiInstagram /></a><a href="#contact" aria-label="LinkedIn"><FiLinkedin /></a><a href="#contact" aria-label="Email"><FiMail /></a></div></div><div><h4>Explore</h4><a href="#about">Our story</a><a href="#services">Services</a><a href="#partners">Approved applicators</a><a href="#contact">Contact</a></div><div><h4>Get in touch</h4><a href="tel:+912228940600"><FiPhone /> +91 22 2894 0600</a><a href="mailto:info@jaykhodiyar.com"><FiMail /> info@jaykhodiyar.com</a><a href="#contact"><FiMapPin /> Mumbai · Pan India</a></div><div className="footer-cta"><h4>Start a conversation</h4><p>Let’s make your next project last longer.</p><a href="#contact">Send an enquiry <FiArrowUpRight /></a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Jay Khodiyar Waterproofing</span><span>Trust · Durability · Satisfaction</span></div></div></footer>;
+}
+
+export default Footer;
